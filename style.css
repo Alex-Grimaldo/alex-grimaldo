@@ -1,0 +1,158 @@
+/* Theme Colors */
+:root {
+    --lightBlue: rgb(0,168,232);
+    --blue: rgb(10, 120, 238);
+    --darkBlue: rgb(0, 46, 79);
+    --richBlack: rgb(0,23,31);
+    --antiWhite: rgb(240,237,238);
+
+    --gunmetal: #2D3142;
+    --silver: #BFC0C0;
+    --antiWhite: #ffffff;
+    --coral: #EF8354;
+    --paynesGray: #4F5D75;
+}
+
+body {
+    background-color: var(--antiWhite);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    background-color: var(--paynesGray);
+    border-top: 6px solid var(--coral);
+    border-left: 6px solid var(--coral);
+}
+
+.hero {
+    background-color: var(--paynesGray);
+    border-left: 6px solid var(--coral);
+    color: white
+}
+
+.navbar-brand, .nav-link {
+    color: white;
+}
+
+.proj {
+    background-color: var(--paynesGray);
+    color: aliceblue;
+}
+
+.footer {
+    background-color: var(--paynesGray);
+    border-left: 6px solid var(--coral);
+    color: rgb(30,30,30);
+}
+
+.btn {
+    background-color: var(--coral);
+    color: rgb(0, 0, 0);
+}
+
+.btn-cards {
+    background-color: var(--coral);
+    color: rgb(255, 255, 255);
+}
+
+.btn-cards:hover {
+    background-color: var(--darkBlue);
+    color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+    background-color: var(--coral);
+    color: white;
+}
+
+/* Dark Mode CSS Start */
+
+.dark-mode-nav {
+    background-color: var(--darkBlue);
+    border-left: 6px solid var(--coral);
+}
+
+.dark-mode-hero {
+    background-color: var(--darkBlue);
+    border-left: 6px solid var(--coral);
+}
+
+.dark-mode-body {
+    background-color: rgb(30,30,30);
+    color: white
+}
+
+.dark-mode-container {
+    background-color: var(--darkBlue);
+}
+
+.dark-mode-footer {
+    background-color: var(--darkBlue);
+    border-left: 6px solid var(--coral);
+    color: aliceblue;
+}
+
+.dark-mode-cardBorder {
+    border-color: black;
+}
+
+.dark-mode-cardTitle {
+    background-color: var(--silver);
+    color: aliceblue;
+}
+
+.dark-mode-cardHeader {
+    background-color: var(--silver);
+    color: aliceblue;
+}
+
+.dark-mode-cardBody {
+    background-color: var(--silver);
+    border-top: none;
+    color: aliceblue;
+}
+
+.dark-mode-cardFooter {
+    background-color: var(--silver);
+    border-top: none;
+    color: aliceblue;
+}
+
+/* Dark Mode CSS End */
+
+body, .card, .card-header, .card-body, .card-footer, .navbar, .hero {
+    transition: 0.2s;
+}
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+}
+  
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--coral);
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+img:hover {
+    z-index: 5;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.nav-link:hover {
+    color: white;
+}
