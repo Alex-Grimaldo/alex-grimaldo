@@ -1,0 +1,63 @@
+ .frame, html, body{
+    height: 100%;
+    margin: 0;
+ }
+ .frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    }
+    .orderTitle{
+      text-align: center;
+      padding: 2%;
+      width: 90%;
+      
+    }
+    .ctnCenter{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90%;
+        width: 95%;
+        border-radius: 3px;
+        
+       }
+     
+       .orderExample{
+         padding-top: 2%;
+         padding-bottom: 2%;
+         width: 99%;
+       }
+       .ctnOrderNumber{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         flex-grow: 1;
+         width: 99%;
+         align-self: center;
+         border-color: aqua;
+       }
+         .btnConfirm{
+            width: 30%;
+            border-radius: 3px;
+         }
+      .ctnOrderContent  {
+         display: flex;
+         flex-direction: column;
+         align-self: center;
+         flex-grow: 2;
+         width: 99%;
+         border-color: aquamarine;
+      }
+
+      .orderComplete{
+         font-family: Arial, Helvetica, sans-serif;
+      }
+         .directions{
+            border-radius: 3px;
+         }
+       

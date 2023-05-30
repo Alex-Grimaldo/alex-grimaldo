@@ -1,0 +1,1599 @@
+{
+    "orders": [
+            {
+            "id": "LCJYuM9xUzhS0NA5PnFXgZieV",
+            "location_id": "LSVMMX80F6GF9",
+            "line_items": [
+                    {
+                    "uid": "f4ccb409-889b-47e2-92b7-69b6aba4e3cf",
+                    "catalog_object_id": "FRKFCIOKEC7EGFPVAQOEEAY7",
+                    "catalog_version": 1675146664640,
+                    "quantity": "1",
+                    "name": "Canada Dry",
+                    "variation_name": "Regular",
+                    "base_price_money": {
+                            "amount": 175,
+                            "currency": "USD"
+                    },
+                    "gross_sales_money": {
+                            "amount": 175,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 8,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 88,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 95,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 175,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "02e93500-c58d-41ef-b419-6aafa6eddfe8",
+                            "tax_uid": "02e93500-c58d-41ef-b419-6aafa6eddfe8",
+                            "applied_money": {
+                                    "amount": 8,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "applied_discounts": [
+                            {
+                            "uid": "105f3a34-40d5-440c-a42e-ed5f33070964",
+                            "discount_uid": "105f3a34-40d5-440c-a42e-ed5f33070964",
+                            "applied_money": {
+                                    "amount": 88,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "taxes": [
+                    {
+                    "uid": "02e93500-c58d-41ef-b419-6aafa6eddfe8",
+                    "catalog_object_id": "5PQQ2UDMTOCRG7SD5WWQ4ICY",
+                    "catalog_version": 1651431456663,
+                    "name": "Sales Tax",
+                    "percentage": "9.75",
+                    "type": "ADDITIVE",
+                    "applied_money": {
+                            "amount": 8,
+                            "currency": "USD"
+                    },
+                    "scope": "LINE_ITEM"
+                    }
+            ],
+            "discounts": [
+                    {
+                    "uid": "105f3a34-40d5-440c-a42e-ed5f33070964",
+                    "catalog_object_id": "JR2K5I373UFVA5YB335E5J4L",
+                    "catalog_version": 1666266773092,
+                    "name": "Employee Food Discount",
+                    "percentage": "50",
+                    "applied_money": {
+                            "amount": 88,
+                            "currency": "USD"
+                    },
+                    "type": "FIXED_PERCENTAGE",
+                    "scope": "ORDER"
+                    }
+            ],
+            "created_at": "2023-04-15T18:51:01Z",
+            "updated_at": "2023-04-15T18:51:01Z",
+            "state": "COMPLETED",
+            "total_tax_money": {
+                    "amount": 8,
+                    "currency": "USD"
+            },
+            "total_discount_money": {
+                    "amount": 88,
+                    "currency": "USD"
+            },
+            "total_tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_money": {
+                    "amount": 95,
+                    "currency": "USD"
+            },
+            "closed_at": "2023-04-15T18:51:01Z",
+            "tenders": [
+                    {
+                    "id": "J8mdAGgr11p8FeiRNcSKng9CwaB",
+                    "location_id": "LSVMMX80F6GF9",
+                    "transaction_id": "LCJYuM9xUzhS0NA5PnFXgZieV",
+                    "created_at": "2023-04-15T18:51:00Z",
+                    "amount_money": {
+                            "amount": 95,
+                            "currency": "USD"
+                    },
+                    "processing_fee_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "type": "CASH",
+                    "cash_details": {
+                            "buyer_tendered_money": {
+                            "amount": 500,
+                            "currency": "USD"
+                            },
+                            "change_back_money": {
+                            "amount": 405,
+                            "currency": "USD"
+                            }
+                    }
+                    }
+            ],
+            "total_service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "return_amounts": {
+                    "total_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amounts": {
+                    "total_money": {
+                    "amount": 95,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 8,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 88,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amount_due_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            }
+            },
+            {
+            "id": "d9YnOrSIU38k0cERzEsC0jkeV",
+            "location_id": "LSVMMX80F6GF9",
+            "line_items": [
+                    {
+                    "uid": "b33d1f9a-1709-4242-bb67-e5053bfaf08e",
+                    "catalog_object_id": "VH5WHM3PZLJMAAPITXSYXVEA",
+                    "catalog_version": 1677259259691,
+                    "quantity": "1",
+                    "name": "Flight Board",
+                    "variation_name": "Regular",
+                    "base_price_money": {
+                            "amount": 800,
+                            "currency": "USD"
+                    },
+                    "modifiers": [
+                            {
+                            "uid": "061943f2-59ff-427f-854e-819f9a7eabc1",
+                            "base_price_money": {
+                                    "amount": 0,
+                                    "currency": "USD"
+                            },
+                            "total_price_money": {
+                                    "amount": 0,
+                                    "currency": "USD"
+                            },
+                            "name": "Blackberry Lavender Oat",
+                            "catalog_object_id": "B6PTPKCCQCZX3KBM2ICMKLFH",
+                            "catalog_version": 1677259300287,
+                            "quantity": "1"
+                            },
+                            {
+                            "uid": "53a57865-9581-40ff-a381-c6e82cf32345",
+                            "base_price_money": {
+                                    "amount": 0,
+                                    "currency": "USD"
+                            },
+                            "total_price_money": {
+                                    "amount": 0,
+                                    "currency": "USD"
+                            },
+                            "name": "Nutty Irish",
+                            "catalog_object_id": "FQZF4MUBSLJEIOFOXJVOXPFX",
+                            "catalog_version": 1677259300287,
+                            "quantity": "1"
+                            },
+                            {
+                            "uid": "da4a6d54-753e-46a7-88e5-44b6fc411e5e",
+                            "base_price_money": {
+                                    "amount": 0,
+                                    "currency": "USD"
+                            },
+                            "total_price_money": {
+                                    "amount": 0,
+                                    "currency": "USD"
+                            },
+                            "name": "Berries and Cream",
+                            "catalog_object_id": "VSJRKTZFCKQKKXZDKFEZVVA7",
+                            "catalog_version": 1677259300287,
+                            "quantity": "1"
+                            }
+                    ],
+                    "gross_sales_money": {
+                            "amount": 800,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 78,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 878,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 800,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "1f2fc559-9076-43be-aa12-4162e631af99",
+                            "tax_uid": "1f2fc559-9076-43be-aa12-4162e631af99",
+                            "applied_money": {
+                                    "amount": 78,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "taxes": [
+                    {
+                    "uid": "1f2fc559-9076-43be-aa12-4162e631af99",
+                    "catalog_object_id": "5PQQ2UDMTOCRG7SD5WWQ4ICY",
+                    "catalog_version": 1651431456663,
+                    "name": "Sales Tax",
+                    "percentage": "9.75",
+                    "type": "ADDITIVE",
+                    "applied_money": {
+                            "amount": 78,
+                            "currency": "USD"
+                    },
+                    "scope": "LINE_ITEM"
+                    }
+            ],
+            "created_at": "2023-04-15T18:49:45Z",
+            "updated_at": "2023-04-15T18:49:45Z",
+            "state": "COMPLETED",
+            "total_tax_money": {
+                    "amount": 78,
+                    "currency": "USD"
+            },
+            "total_discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_money": {
+                    "amount": 878,
+                    "currency": "USD"
+            },
+            "closed_at": "2023-04-15T18:49:45Z",
+            "tenders": [
+                    {
+                    "id": "VoxrpuqjTJ64XEw9cZuxmqOUvaB",
+                    "location_id": "LSVMMX80F6GF9",
+                    "transaction_id": "d9YnOrSIU38k0cERzEsC0jkeV",
+                    "created_at": "2023-04-15T18:49:44Z",
+                    "amount_money": {
+                            "amount": 878,
+                            "currency": "USD"
+                    },
+                    "processing_fee_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "type": "CASH",
+                    "cash_details": {
+                            "buyer_tendered_money": {
+                            "amount": 1000,
+                            "currency": "USD"
+                            },
+                            "change_back_money": {
+                            "amount": 122,
+                            "currency": "USD"
+                            }
+                    }
+                    }
+            ],
+            "total_service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "return_amounts": {
+                    "total_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amounts": {
+                    "total_money": {
+                    "amount": 878,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 78,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amount_due_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            }
+            },
+            {
+            "id": "JppKWRUHbtLjLArPN8lfMrjeV",
+            "location_id": "LSVMMX80F6GF9",
+            "line_items": [
+                    {
+                    "uid": "550d4790-5404-48e2-a41d-66ac7b3a6df8",
+                    "catalog_object_id": "PDDKEKPQDVRAVUQW7HY3D7DL",
+                    "catalog_version": 1676655561654,
+                    "quantity": "1",
+                    "name": "Daily Drip",
+                    "variation_name": "16 Oz",
+                    "base_price_money": {
+                            "amount": 300,
+                            "currency": "USD"
+                    },
+                    "gross_sales_money": {
+                            "amount": 300,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 29,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 329,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 300,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "7f949529-d41b-45c7-9671-33d40ca22bb2",
+                            "tax_uid": "7f949529-d41b-45c7-9671-33d40ca22bb2",
+                            "applied_money": {
+                                    "amount": 29,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "taxes": [
+                    {
+                    "uid": "7f949529-d41b-45c7-9671-33d40ca22bb2",
+                    "catalog_object_id": "5PQQ2UDMTOCRG7SD5WWQ4ICY",
+                    "catalog_version": 1651431456663,
+                    "name": "Sales Tax",
+                    "percentage": "9.75",
+                    "type": "ADDITIVE",
+                    "applied_money": {
+                            "amount": 29,
+                            "currency": "USD"
+                    },
+                    "scope": "LINE_ITEM"
+                    }
+            ],
+            "created_at": "2023-04-15T18:47:13Z",
+            "updated_at": "2023-04-15T18:47:13Z",
+            "state": "COMPLETED",
+            "total_tax_money": {
+                    "amount": 29,
+                    "currency": "USD"
+            },
+            "total_discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_tip_money": {
+                    "amount": 75,
+                    "currency": "USD"
+            },
+            "total_money": {
+                    "amount": 404,
+                    "currency": "USD"
+            },
+            "closed_at": "2023-04-15T18:47:13Z",
+            "tenders": [
+                    {
+                    "id": "7Jg5Q9IV74ToT4BQhcstQYryvaB",
+                    "location_id": "LSVMMX80F6GF9",
+                    "transaction_id": "JppKWRUHbtLjLArPN8lfMrjeV",
+                    "created_at": "2023-04-15T18:47:05Z",
+                    "amount_money": {
+                            "amount": 404,
+                            "currency": "USD"
+                    },
+                    "processing_fee_money": {
+                            "amount": 21,
+                            "currency": "USD"
+                    },
+                    "customer_id": "5P8RCCEMN176V4P65SB18FR96W",
+                    "type": "CARD",
+                    "card_details": {
+                            "status": "CAPTURED",
+                            "card": {
+                            "card_brand": "VISA",
+                            "last_4": "6755",
+                            "fingerprint": "sq-1-eRqy7kjW74JgVnSPKuCVIIx_K6v5z5YDf2-XXE58hVShQNRxSZrUZM-whOBr686Meg"
+                            },
+                            "entry_method": "CONTACTLESS"
+                    },
+                    "tip_money": {
+                            "amount": 75,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "total_service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "return_amounts": {
+                    "total_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amounts": {
+                    "total_money": {
+                    "amount": 404,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 29,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 75,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amount_due_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            }
+            },
+            {
+            "id": "3YpqdZkYZJw0JTrCUqPe6breV",
+            "location_id": "LSVMMX80F6GF9",
+            "line_items": [
+                    {
+                    "uid": "ad53422c-06bf-42e3-a3d1-0c3d2415e150",
+                    "catalog_object_id": "7UWYGFZO4DDI2D7GXH47YPI6",
+                    "catalog_version": 1676655740390,
+                    "quantity": "1",
+                    "name": "Latte Plain",
+                    "variation_name": "16 Oz, Hot",
+                    "base_price_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "gross_sales_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 58,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 658,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "b1de804c-e838-4268-a9b6-262eb37aa93e",
+                            "tax_uid": "3f691e83-f07e-433b-8db3-99129cb2a32a",
+                            "applied_money": {
+                                    "amount": 58,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    },
+                    {
+                    "uid": "a4e833f5-fd85-4382-8da3-bfbf646f9a61",
+                    "catalog_object_id": "SIR5C5AMLAHQUNQUONMUYQ6O",
+                    "catalog_version": 1675101964179,
+                    "quantity": "2",
+                    "name": "Air Pot Coffee",
+                    "variation_name": "Regular",
+                    "base_price_money": {
+                            "amount": 3500,
+                            "currency": "USD"
+                    },
+                    "gross_sales_money": {
+                            "amount": 7000,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 683,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 7683,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 7000,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "3f691e83-f07e-433b-8db3-99129cb2a32a",
+                            "tax_uid": "3f691e83-f07e-433b-8db3-99129cb2a32a",
+                            "applied_money": {
+                                    "amount": 683,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "taxes": [
+                    {
+                    "uid": "3f691e83-f07e-433b-8db3-99129cb2a32a",
+                    "catalog_object_id": "5PQQ2UDMTOCRG7SD5WWQ4ICY",
+                    "catalog_version": 1651431456663,
+                    "name": "Sales Tax",
+                    "percentage": "9.75",
+                    "type": "ADDITIVE",
+                    "applied_money": {
+                            "amount": 741,
+                            "currency": "USD"
+                    },
+                    "scope": "LINE_ITEM"
+                    }
+            ],
+            "created_at": "2023-04-15T18:40:41Z",
+            "updated_at": "2023-04-15T18:40:41Z",
+            "state": "COMPLETED",
+            "total_tax_money": {
+                    "amount": 741,
+                    "currency": "USD"
+            },
+            "total_discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_money": {
+                    "amount": 8341,
+                    "currency": "USD"
+            },
+            "closed_at": "2023-04-15T18:40:41Z",
+            "tenders": [
+                    {
+                    "id": "rpeKyLMQPVo8IW8rdP09Xv20uaB",
+                    "location_id": "LSVMMX80F6GF9",
+                    "transaction_id": "3YpqdZkYZJw0JTrCUqPe6breV",
+                    "created_at": "2023-04-15T18:40:33Z",
+                    "amount_money": {
+                            "amount": 8341,
+                            "currency": "USD"
+                    },
+                    "processing_fee_money": {
+                            "amount": 227,
+                            "currency": "USD"
+                    },
+                    "customer_id": "YHMS1T48E97H3EHHFNQH9YFKDR",
+                    "type": "CARD",
+                    "card_details": {
+                            "status": "CAPTURED",
+                            "card": {
+                            "card_brand": "MASTERCARD",
+                            "last_4": "8242",
+                            "fingerprint": "sq-1-hS9U2gTdJRUClMZp4LoY3VjzS-VlaapTYZEQnky_mp2jbKSdPbsLeymx11pSJ_hcaA"
+                            },
+                            "entry_method": "EMV"
+                    }
+                    }
+            ],
+            "total_service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "return_amounts": {
+                    "total_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amounts": {
+                    "total_money": {
+                    "amount": 8341,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 741,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amount_due_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            }
+            },
+            {
+            "id": "r6T9NbmfNatAMdS1PHqUDt8eV",
+            "location_id": "LSVMMX80F6GF9",
+            "line_items": [
+                    {
+                    "uid": "1ceb41f8-3b97-40b8-84fc-e4da97312af0",
+                    "catalog_object_id": "EXTZO3LEML6ZPIBZDYIOH6C2",
+                    "catalog_version": 1676654919327,
+                    "quantity": "1",
+                    "name": "Berrylicious Chai",
+                    "variation_name": "16 Oz, Iced",
+                    "base_price_money": {
+                            "amount": 650,
+                            "currency": "USD"
+                    },
+                    "gross_sales_money": {
+                            "amount": 650,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 63,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 713,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 650,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "b4dbb75e-43a2-4309-89cc-6eb735e3d06c",
+                            "tax_uid": "b4dbb75e-43a2-4309-89cc-6eb735e3d06c",
+                            "applied_money": {
+                                    "amount": 63,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    },
+                    {
+                    "uid": "0117e1bc-6e46-4761-ad73-0ab44173aa3f",
+                    "catalog_object_id": "VYZ2I5WRF2RJTIG46S5NGVJQ",
+                    "catalog_version": 1676655561654,
+                    "quantity": "1",
+                    "name": "Cold Brew",
+                    "variation_name": "16 Oz",
+                    "base_price_money": {
+                            "amount": 400,
+                            "currency": "USD"
+                    },
+                    "modifiers": [
+                            {
+                            "uid": "7c5c3173-a252-4316-86c3-a46a70ba7851",
+                            "base_price_money": {
+                                    "amount": 50,
+                                    "currency": "USD"
+                            },
+                            "total_price_money": {
+                                    "amount": 50,
+                                    "currency": "USD"
+                            },
+                            "name": "Caramel",
+                            "catalog_object_id": "KFRVVZORRY4LIFLHKZ7GOQDU",
+                            "catalog_version": 1677946236218,
+                            "quantity": "1"
+                            },
+                            {
+                            "uid": "46350a26-ee7b-4b34-a759-94665d5de424",
+                            "base_price_money": {
+                                    "amount": 50,
+                                    "currency": "USD"
+                            },
+                            "total_price_money": {
+                                    "amount": 50,
+                                    "currency": "USD"
+                            },
+                            "name": "Vanilla",
+                            "catalog_object_id": "PIB53APTQ76NZLS47NMLAKE5",
+                            "catalog_version": 1677946236218,
+                            "quantity": "1"
+                            },
+                            {
+                            "uid": "e95b9b1a-cf01-4926-81f0-7f54bd2b6ff6",
+                            "base_price_money": {
+                                    "amount": 0,
+                                    "currency": "USD"
+                            },
+                            "total_price_money": {
+                                    "amount": 0,
+                                    "currency": "USD"
+                            },
+                            "name": "Oat",
+                            "catalog_object_id": "RH6MX3PAPJIPZBBETBZW7HGX",
+                            "catalog_version": 1672850732273,
+                            "quantity": "1"
+                            }
+                    ],
+                    "gross_sales_money": {
+                            "amount": 500,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 49,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 549,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 400,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "b4dbb75e-43a2-4309-89cc-6eb735e3d06c",
+                            "tax_uid": "b4dbb75e-43a2-4309-89cc-6eb735e3d06c",
+                            "applied_money": {
+                                    "amount": 49,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "taxes": [
+                    {
+                    "uid": "b4dbb75e-43a2-4309-89cc-6eb735e3d06c",
+                    "catalog_object_id": "5PQQ2UDMTOCRG7SD5WWQ4ICY",
+                    "catalog_version": 1651431456663,
+                    "name": "Sales Tax",
+                    "percentage": "9.75",
+                    "type": "ADDITIVE",
+                    "applied_money": {
+                            "amount": 112,
+                            "currency": "USD"
+                    },
+                    "scope": "LINE_ITEM"
+                    }
+            ],
+            "created_at": "2023-04-15T18:38:39Z",
+            "updated_at": "2023-04-15T18:38:39Z",
+            "state": "COMPLETED",
+            "total_tax_money": {
+                    "amount": 112,
+                    "currency": "USD"
+            },
+            "total_discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_money": {
+                    "amount": 1262,
+                    "currency": "USD"
+            },
+            "closed_at": "2023-04-15T18:38:39Z",
+            "tenders": [
+                    {
+                    "id": "jZS5DroHJ89E6Dw4UrotAQyLuaB",
+                    "location_id": "LSVMMX80F6GF9",
+                    "transaction_id": "r6T9NbmfNatAMdS1PHqUDt8eV",
+                    "created_at": "2023-04-15T18:38:38Z",
+                    "amount_money": {
+                            "amount": 1262,
+                            "currency": "USD"
+                    },
+                    "processing_fee_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "type": "CASH",
+                    "cash_details": {
+                            "buyer_tendered_money": {
+                            "amount": 2000,
+                            "currency": "USD"
+                            },
+                            "change_back_money": {
+                            "amount": 738,
+                            "currency": "USD"
+                            }
+                    }
+                    }
+            ],
+            "total_service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "return_amounts": {
+                    "total_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amounts": {
+                    "total_money": {
+                    "amount": 1262,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 112,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "ticket_name": "R4",
+            "net_amount_due_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            }
+            },
+            {
+            "id": "zguM4MVhcMoYKSwbuv1e8zoeV",
+            "location_id": "LSVMMX80F6GF9",
+            "line_items": [
+                    {
+                    "uid": "29d461b7-f3cf-445c-a7bc-c030067022bc",
+                    "catalog_object_id": "FLJXIH2RDJMRKZSORO2EHZWW",
+                    "catalog_version": 1676654919327,
+                    "quantity": "1",
+                    "name": "Berries and Cream Latte",
+                    "variation_name": "16 Oz, Iced",
+                    "base_price_money": {
+                            "amount": 650,
+                            "currency": "USD"
+                    },
+                    "gross_sales_money": {
+                            "amount": 650,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 63,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 713,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 650,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "44011bae-36ad-4702-9b7a-dae4b272b568",
+                            "tax_uid": "44011bae-36ad-4702-9b7a-dae4b272b568",
+                            "applied_money": {
+                                    "amount": 63,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "taxes": [
+                    {
+                    "uid": "44011bae-36ad-4702-9b7a-dae4b272b568",
+                    "catalog_object_id": "5PQQ2UDMTOCRG7SD5WWQ4ICY",
+                    "catalog_version": 1651431456663,
+                    "name": "Sales Tax",
+                    "percentage": "9.75",
+                    "type": "ADDITIVE",
+                    "applied_money": {
+                            "amount": 63,
+                            "currency": "USD"
+                    },
+                    "scope": "LINE_ITEM"
+                    }
+            ],
+            "created_at": "2023-04-15T18:37:23Z",
+            "updated_at": "2023-04-15T18:37:23Z",
+            "state": "COMPLETED",
+            "total_tax_money": {
+                    "amount": 63,
+                    "currency": "USD"
+            },
+            "total_discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_tip_money": {
+                    "amount": 100,
+                    "currency": "USD"
+            },
+            "total_money": {
+                    "amount": 813,
+                    "currency": "USD"
+            },
+            "closed_at": "2023-04-15T18:37:23Z",
+            "tenders": [
+                    {
+                    "id": "1Yv8kl2oV7hEkK0faKRVFrVbuaB",
+                    "location_id": "LSVMMX80F6GF9",
+                    "transaction_id": "zguM4MVhcMoYKSwbuv1e8zoeV",
+                    "created_at": "2023-04-15T18:37:17Z",
+                    "amount_money": {
+                            "amount": 813,
+                            "currency": "USD"
+                    },
+                    "processing_fee_money": {
+                            "amount": 31,
+                            "currency": "USD"
+                    },
+                    "customer_id": "0N1A6CAY6X1SNE5C2WJY0G0C4W",
+                    "type": "CARD",
+                    "card_details": {
+                            "status": "CAPTURED",
+                            "card": {
+                            "card_brand": "VISA",
+                            "last_4": "2438",
+                            "fingerprint": "sq-1-4Sb64v-4nW5HMmklQmyb-xV-_-CAjtAGuL0o1y0fPylD7pjCBTaLb5JMvenaRG5z6g"
+                            },
+                            "entry_method": "CONTACTLESS"
+                    },
+                    "tip_money": {
+                            "amount": 100,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "total_service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "return_amounts": {
+                    "total_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amounts": {
+                    "total_money": {
+                    "amount": 813,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 63,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 100,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "ticket_name": "R1",
+            "net_amount_due_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            }
+            },
+            {
+            "id": "vGgBLANCzr5jUCXlAajAZLveV",
+            "location_id": "LSVMMX80F6GF9",
+            "line_items": [
+                    {
+                    "uid": "a7529aef-e6e2-4428-80d5-894a1dafa6ff",
+                    "catalog_object_id": "Y2SAHI5BOB33LBL4BOGBWFE3",
+                    "catalog_version": 1676917116248,
+                    "quantity": "1",
+                    "name": "Mocha White Chocolate",
+                    "variation_name": "16 Oz, Iced",
+                    "base_price_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "gross_sales_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 58,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 658,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "85a53e80-05b7-41f8-8095-77d85399e7fb",
+                            "tax_uid": "85a53e80-05b7-41f8-8095-77d85399e7fb",
+                            "applied_money": {
+                                    "amount": 58,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "taxes": [
+                    {
+                    "uid": "85a53e80-05b7-41f8-8095-77d85399e7fb",
+                    "catalog_object_id": "5PQQ2UDMTOCRG7SD5WWQ4ICY",
+                    "catalog_version": 1651431456663,
+                    "name": "Sales Tax",
+                    "percentage": "9.75",
+                    "type": "ADDITIVE",
+                    "applied_money": {
+                            "amount": 58,
+                            "currency": "USD"
+                    },
+                    "scope": "LINE_ITEM"
+                    }
+            ],
+            "created_at": "2023-04-15T18:27:01Z",
+            "updated_at": "2023-04-15T18:27:01Z",
+            "state": "COMPLETED",
+            "total_tax_money": {
+                    "amount": 58,
+                    "currency": "USD"
+            },
+            "total_discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "total_money": {
+                    "amount": 658,
+                    "currency": "USD"
+            },
+            "closed_at": "2023-04-15T18:27:01Z",
+            "tenders": [
+                    {
+                    "id": "R8QRHuQwSF6qwhGpTVg8tiAruaB",
+                    "location_id": "LSVMMX80F6GF9",
+                    "transaction_id": "vGgBLANCzr5jUCXlAajAZLveV",
+                    "created_at": "2023-04-15T18:26:55Z",
+                    "amount_money": {
+                            "amount": 658,
+                            "currency": "USD"
+                    },
+                    "processing_fee_money": {
+                            "amount": 27,
+                            "currency": "USD"
+                    },
+                    "customer_id": "K3PQ99N29HYCFZPSPVMX5RQSAW",
+                    "type": "CARD",
+                    "card_details": {
+                            "status": "CAPTURED",
+                            "card": {
+                            "card_brand": "VISA",
+                            "last_4": "3307",
+                            "fingerprint": "sq-1-hYAw4W0UfS1El0iN1dPw91x1YxVl-S_K0QUOWMOt0gM2YdY1_9k4s-Xl67kWlKlInA"
+                            },
+                            "entry_method": "EMV"
+                    },
+                    "tip_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "total_service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "return_amounts": {
+                    "total_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amounts": {
+                    "total_money": {
+                    "amount": 658,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 58,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amount_due_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            }
+            },
+            {
+            "id": "dNKqH4gLfwOjovmC2DWXKJ9eV",
+            "location_id": "LSVMMX80F6GF9",
+            "line_items": [
+                    {
+                    "uid": "e06fca80-3bdc-4777-bae5-9e82c61f061e",
+                    "catalog_object_id": "Y4GVCMDGWB5EXTLAZZG2RGR7",
+                    "catalog_version": 1676917116248,
+                    "quantity": "1",
+                    "name": "Mocha White Chocolate",
+                    "variation_name": "16 Oz, Hot",
+                    "base_price_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "gross_sales_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "total_tax_money": {
+                            "amount": 29,
+                            "currency": "USD"
+                    },
+                    "total_discount_money": {
+                            "amount": 300,
+                            "currency": "USD"
+                    },
+                    "total_money": {
+                            "amount": 329,
+                            "currency": "USD"
+                    },
+                    "variation_total_price_money": {
+                            "amount": 600,
+                            "currency": "USD"
+                    },
+                    "applied_taxes": [
+                            {
+                            "uid": "6930a72e-0ee1-455d-927f-70543a78f54a",
+                            "tax_uid": "6930a72e-0ee1-455d-927f-70543a78f54a",
+                            "applied_money": {
+                                    "amount": 29,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "applied_discounts": [
+                            {
+                            "uid": "da2365a6-4dec-4af0-9a6e-3b457a1c4827",
+                            "discount_uid": "da2365a6-4dec-4af0-9a6e-3b457a1c4827",
+                            "applied_money": {
+                                    "amount": 300,
+                                    "currency": "USD"
+                            }
+                            }
+                    ],
+                    "item_type": "ITEM",
+                    "total_service_charge_money": {
+                            "amount": 0,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "taxes": [
+                    {
+                    "uid": "6930a72e-0ee1-455d-927f-70543a78f54a",
+                    "catalog_object_id": "5PQQ2UDMTOCRG7SD5WWQ4ICY",
+                    "catalog_version": 1651431456663,
+                    "name": "Sales Tax",
+                    "percentage": "9.75",
+                    "type": "ADDITIVE",
+                    "applied_money": {
+                            "amount": 29,
+                            "currency": "USD"
+                    },
+                    "scope": "LINE_ITEM"
+                    }
+            ],
+            "discounts": [
+                    {
+                    "uid": "da2365a6-4dec-4af0-9a6e-3b457a1c4827",
+                    "catalog_object_id": "DLQLQBSGKEAXFX2SCKPVBZAL",
+                    "catalog_version": 1660229106052,
+                    "name": "Bottomless Tumbler Discount ",
+                    "amount_money": {
+                            "amount": 300,
+                            "currency": "USD"
+                    },
+                    "applied_money": {
+                            "amount": 300,
+                            "currency": "USD"
+                    },
+                    "type": "FIXED_AMOUNT",
+                    "scope": "ORDER"
+                    }
+            ],
+            "created_at": "2023-04-15T18:08:02Z",
+            "updated_at": "2023-04-15T18:08:02Z",
+            "state": "COMPLETED",
+            "total_tax_money": {
+                    "amount": 29,
+                    "currency": "USD"
+            },
+            "total_discount_money": {
+                    "amount": 300,
+                    "currency": "USD"
+            },
+            "total_tip_money": {
+                    "amount": 100,
+                    "currency": "USD"
+            },
+            "total_money": {
+                    "amount": 429,
+                    "currency": "USD"
+            },
+            "closed_at": "2023-04-15T18:08:02Z",
+            "tenders": [
+                    {
+                    "id": "nDUsZbUW8cA1auF8PX0UoviHuaB",
+                    "location_id": "LSVMMX80F6GF9",
+                    "transaction_id": "dNKqH4gLfwOjovmC2DWXKJ9eV",
+                    "created_at": "2023-04-15T18:07:48Z",
+                    "amount_money": {
+                            "amount": 429,
+                            "currency": "USD"
+                    },
+                    "processing_fee_money": {
+                            "amount": 21,
+                            "currency": "USD"
+                    },
+                    "customer_id": "82BQTKXXND4J58ZWKGKWWSN9B0",
+                    "type": "CARD",
+                    "card_details": {
+                            "status": "CAPTURED",
+                            "card": {
+                            "card_brand": "DISCOVER",
+                            "last_4": "2780",
+                            "fingerprint": "sq-1-tecuKfwTXDaahOWnnlUpit29uLQsA07TnUoqo9jZDd19_bTEKKkr1t8rwyHkQyRJSg"
+                            },
+                            "entry_method": "EMV"
+                    },
+                    "tip_money": {
+                            "amount": 100,
+                            "currency": "USD"
+                    }
+                    }
+            ],
+            "total_service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            },
+            "return_amounts": {
+                    "total_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amounts": {
+                    "total_money": {
+                    "amount": 429,
+                    "currency": "USD"
+                    },
+                    "tax_money": {
+                    "amount": 29,
+                    "currency": "USD"
+                    },
+                    "discount_money": {
+                    "amount": 300,
+                    "currency": "USD"
+                    },
+                    "tip_money": {
+                    "amount": 100,
+                    "currency": "USD"
+                    },
+                    "service_charge_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                    }
+            },
+            "net_amount_due_money": {
+                    "amount": 0,
+                    "currency": "USD"
+            }
+            }
+    ]
+}

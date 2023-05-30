@@ -1,0 +1,62 @@
+<!--For Encoder and Decoder Example-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Exceptional Bean - Menu</title>
+    <link rel="icon" href="images/Transparent_Logo.png">
+    <link rel="stylesheet" href="css/lib/bootstrapORIGINAL.min.css">
+    <link rel="stylesheet" href="css/lib/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Antic+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <style>
+    body {
+        font-family: "Antic Slab", sans-serif;
+        background-position: center;
+        background-size: 75%;
+    }
+    </style>
+    <script defer src="js/lib/bootstrap.bundle.min.js"></script>
+    <script defer src="js/lib/jquery-3.6.0.min.js"></script>
+    <script defer src='js/lib/sweetalert.js'></script>
+    <script defer src="js/Encode_Decode.js"></script>
+    <title> Encoder and Decoder Example </title>
+</head>
+<body style="background-color:rgb(0,196,255);" class="d-flex vh-100 ">
+    <div class="container" >
+        <div class="row rounded text-center container my-1 vh-5 bg-secondary">
+            <h2 class="text-center col-12  vh-20">        
+                Decoder and Encoder Example
+            </h2>
+        </div>
+        <!--
+        <div class="row text-center container my-auto vh-auto">
+            <label for="formFileLabel" class="form-label">Select a Image</label>
+            <input class="form-control" type="file" id="formFile" value="Null">
+        </div>
+
+        <div class="row text-center container my-auto vh-auto">
+            <div class="row d-flex mx-auto my-auto vh-15">
+                <button id="encode" class="btn btn-primary col-3 mx-auto my-3">Encode</button>
+                <button id="decode" class="btn btn-warning col-3 mx-auto my-3">Decode</button>
+            </div>
+
+            <div class="input-group d-flex my-auto vh-auto">
+                <textarea id="TextArea" class="form-control" aria-label="Insert Base64 string in order to Decode. (vice versa for Encode)" placeholder="Insert Base64 string in order to Decode. (vice versa for Encode)" for="floatingTextArea"></textarea>
+            </div>
+        </div> -->
+        <!-- Here -->
+        <div class="card-body" id="cardBody" style="transition: 0.3s;">
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Upload any Image</label>
+                <input class="form-control" type="file" id="formFileMultiple"  multiple>
+            </div>
+        </div>
+
+        <div class="row container my-auto vh-auto justify-content-center" id="imageGallery"></div>
+    </div>
+</body>
+</html>
+

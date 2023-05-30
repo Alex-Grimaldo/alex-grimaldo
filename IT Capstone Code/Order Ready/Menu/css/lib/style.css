@@ -1,0 +1,30 @@
+body {
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+}
+
+.titles {
+    background-color: rgb(47, 47, 47);
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    font-size: 175px;
+    color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.customerList {
+    justify-content: center;
+    text-align: center;
+}
+
+.customers {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 175px;
+}

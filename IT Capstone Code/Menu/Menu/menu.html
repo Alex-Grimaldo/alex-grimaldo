@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Exceptional Bean - Menu</title>
+    <link rel="icon" href="images/Transparent_Logo.png">
+    <link rel="stylesheet" href="css/lib/bootstrapORIGINAL.min.css">
+    <!-- <link rel="stylesheet" href="css/lib/main.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Antic+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <style>
+    body {
+        font-family: "Antic Slab", sans-serif;
+        background-position: center;
+        background-size: 75%;
+    }
+    </style>
+    <script defer src="js/lib/bootstrap.bundle.min.js"></script>
+    <script defer src="js/lib/jquery-3.6.0.min.js"></script>
+    <script defer src='js/lib/sweetalert.js'></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/SquareItems.js"></script>
+</head>
+<body class="vh-100 d-flex justify-content-center align-items-center" style="cursor: none; background:linear-gradient(0deg, rgb(255, 254, 254), rgba(255,255,255, 0.8)), url(images/Transparent_Logo.png); background-size: contain; background-repeat: no-repeat; background-position: center; background-attachment: fixed;" id="content">
+    <div class="col-12 row" id="all">
+        <div class="col-sm-6" id="one">
+            <h1 class="text-center" style="font-weight: bold; text-decoration: underline;">Coffee Drinks</h1>
+            <div class="card col-12" style="border-style: solid; border-width: 5px; border-color: rgb(60, 60, 60); background-size: cover; background-color: rgba(200, 200, 200, 0.40); backdrop-filter: blur(5px);">
+                <ul class="list-unstyled mx-2" style="font-weight: bold; font-size: 22px;" id="coffeeDrinks">
+                    <li class="">
+                        <div class="row col-12">
+                            <div class="col-6"></div>
+                            <div class="col-3 text-center border-dark border-bottom">12oz</div>
+                            <div class="col-3 text-center border-dark border-bottom">16oz</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="text-center mt-2" style="font-weight: bold; text-decoration: underline">Non-Coffee Drinks</h1>
+            <div class="card col-12" style="border-style: solid; border-width: 5px; border-color: rgb(60, 60, 60); background-size: cover; background-color: rgba(200, 200, 200, 0.40); backdrop-filter: blur(5px);">
+                <ul class="list-unstyled mx-2" style="font-weight: bold; font-size: 22px;" id="nonCoffeeDrinks">
+                    <li class="">
+                        <div class="row col-12">
+                            <div class="col-6"></div>
+                            <div class="col-3 text-center border-dark border-bottom">12oz</div>
+                            <div class="col-3 text-center border-dark border-bottom">16oz</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6" id="two">
+            <h1 class="text-center" style="font-weight: bold; text-decoration: underline">Drink Options</h1>
+            <div class="container col-12 row rounded mx-0" style="border-style: solid; border-width: 5px; border-color: rgb(60, 60, 60); background-size: cover; background-color: rgba(200, 200, 200, 0.40); backdrop-filter: blur(5px);">
+                <div class="col-6" style="font-weight: bold; font-size: 22px;" id="milks">
+                    <div class="">
+                        <div class="col-12 text-center border-dark" style="font-size: 30px; text-decoration: underline;">Milk Options:</div>
+                    </div>
+                </div>
+                <div class="col-6" style="font-weight: bold; font-size: 22px;" id="flavors">
+                    <div class="">
+                        <div class="col-12 text-center border-dark" style="font-size: 30px; text-decoration: underline;">Flavors:</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" id="widgets">
+                <h1 class="text-center border-dark border-bottom" style="font-family: Cookie; font-size: 56px; border-top: 10px black;">Coffee, Community, Character</h1>
+                <h1 class="col-12 text-center" style="font-size: 56px;" id="time"></h1>
+                <h2 class="col-12 text-center" style="font-size: 56px;" id="weatherWidget"></h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
