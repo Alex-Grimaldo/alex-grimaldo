@@ -1,0 +1,11 @@
+{
+  "name": "customerlist",
+  "version": "1.0.0",
+  "description": "Connect to MySQL and pull customer and vehicle information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Grimaldo",
+  "license": "ISC"
+}
